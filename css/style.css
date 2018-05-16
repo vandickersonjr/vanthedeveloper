@@ -1,54 +1,103 @@
-/* helper class */
-p {
-  text-align: center;
-  line-height: 1.6em;
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: 700;
+  font-size: 4em;
+  margin-top: 50px;
 }
 
-.margin {
-  margin: 2em;
+h2, p {
+  font-family: 'Lato', sans-serif;
+}
+/* end global styles */
+
+.navbar-default {
+  background-color: transparent;
+  border: transparent;
 }
 
-.padding {
-  padding: 2em;
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: rgba(17, 17, 17, .5);
 }
 
-.border {
-  border-radius: 1.5em;
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  text-shadow: 1px 1px 2px #0a0a0a;
 }
 
-/* img */
-.jumbo-img {
-  height: 48em;
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #f8512f;
+  background-color: rgba(17, 17, 17, .5);
+}
+
+  /* end navbar */
+
+.jumbotron {
+  background-image: url('../img/code.jpg');
+  background-size: cover;
+  height: 80vh;
+  background-position: center;
+}
+
+.jumbotron h1 {
+  color: #fff;
   padding: 3em;
+  font-weight: 700;
+}
+  /* end jumbotron */
+
+#story {
+  height: 80vh;
 }
 
-.main-img {
+  /* end story */
+
+#portfolio {
+  height: 80vh;
+}
+
+.thumbnail {
+  background-color: rgba(17, 17, 17, .5);
+  padding: 10px;
+  box-shadow: 1px 4px 4px 1px #505050;
+  margin-top: 1em;
+  height: 25em;
+  font-family: 'Lobster', cursive;
+}
+
+.thumbnail>img {
+  display: block;
   height: 15em;
-  padding-left: 3em;
-  margin: 2em;
 }
 
-/* color */
-.a-color {
-  background-color: rgb(204, 255, 102);
-}
+  /* end portfolio */
 
-.b-color {
-  background-color: rgb(102, 255, 204);
-}
+  #contact {
+    background-color: #f8512f;
+    min-height: 600px;
+    color: #fff;
+    padding-bottom: 50px;
+  }
 
-.c-color {
-  background-color: rgb(0, 153, 255);
-}
+  #contact form {
+    background-color: rgba(17, 17, 17, .5);
+    border: 1px solid #fff;
+    padding: 15px;
+  }
 
-.s-color {
-  background-color: rgb(0, 0, 102);
-  color: rgb(242, 242, 242)
-}
+  #contact .form-group span,
+  #fine-print span {
+    color: #ff0d06;
+    font-size: 1.6em;
+  }
 
-.footer {
-  height: 15em;
-  background-color: rgb(230, 230, 230);
-  font-size: 1.5em;
-  text-align: center;
-}
+  #contact h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+  }
+
+  /* end contact */
