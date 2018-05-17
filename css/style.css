@@ -42,17 +42,20 @@ h2, p {
   background-size: cover;
   height: 80vh;
   background-position: center;
+  margin-bottom: 0;
 }
 
 .jumbotron h1 {
   color: #fff;
-  padding: 3em;
   font-weight: 700;
+  padding-top: 2em;
 }
   /* end jumbotron */
 
 #story {
   height: 80vh;
+  background-color: rgba(179, 240, 255, 0.5);
+  width: 100%;
 }
 
 #story img {
@@ -61,6 +64,21 @@ h2, p {
 }
 
   /* end story */
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  background-size: 50em;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-color: rgba(204, 204, 0, 0.4);
+  background-image: url('../img/diginomlife_logo.png');
+  }
+
+  /* end logo */
 
 #portfolio {
   height: 80vh;
