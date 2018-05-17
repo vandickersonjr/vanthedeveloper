@@ -8,6 +8,8 @@ h1 {
 
 h2, p {
   font-family: 'Lato', sans-serif;
+  font-size: 1.6em;
+  line-height: 1em;
 }
 /* end global styles */
 
@@ -53,17 +55,23 @@ h2, p {
   height: 80vh;
 }
 
+#story img {
+  height: 20em;
+  width: 20em;
+}
+
   /* end story */
 
 #portfolio {
   height: 80vh;
+  width: 100%;
+  background-color: rgba(102, 102, 153, 0.5);
 }
 
 .thumbnail {
   background-color: rgba(17, 17, 17, .5);
   padding: 10px;
   box-shadow: 1px 4px 4px 1px #505050;
-  margin-top: 1em;
   height: 25em;
   font-family: 'Lobster', cursive;
 }
@@ -76,7 +84,7 @@ h2, p {
   /* end portfolio */
 
   #contact {
-    background-color: #f8512f;
+    background-color: rgba(153, 204, 255, .8);
     min-height: 600px;
     color: #fff;
     padding-bottom: 50px;
@@ -90,7 +98,7 @@ h2, p {
 
   #contact .form-group span,
   #fine-print span {
-    color: #ff0d06;
+    color: #ff0000;
     font-size: 1.6em;
   }
 
