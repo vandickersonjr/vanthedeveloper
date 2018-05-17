@@ -1,4 +1,6 @@
 
+@media only screen and (min-width: 768px) {
+
 h1 {
   font-family: 'Lobster', cursive;
   font-weight: 700;
@@ -6,10 +8,14 @@ h1 {
   margin-top: 50px;
 }
 
-h2, p {
+p {
   font-family: 'Lato', sans-serif;
-  font-size: 1.6em;
-  line-height: 1em;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+.padding {
+  padding-top: 3em;
 }
 /* end global styles */
 
@@ -40,7 +46,7 @@ h2, p {
 .jumbotron {
   background-image: url('../img/code.jpg');
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
   background-position: center;
   margin-bottom: 0;
 }
@@ -53,7 +59,7 @@ h2, p {
   /* end jumbotron */
 
 #story {
-  height: 80vh;
+  height: 100vh;
   background-color: rgba(179, 240, 255, 0.5);
   width: 100%;
 }
@@ -81,7 +87,7 @@ h2, p {
   /* end logo */
 
 #portfolio {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background-color: rgba(102, 102, 153, 0.5);
 }
@@ -126,4 +132,8 @@ h2, p {
     font-size: 1em;
   }
 
+.btn {
+  margin-bottom: 1em;
+}
+}
   /* end contact */
