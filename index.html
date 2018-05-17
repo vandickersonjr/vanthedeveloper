@@ -53,7 +53,7 @@
 
 <!-- story -->
 
-<div class="container" id="story">
+<div class="container-fluid" id="story">
 	<div class="row">
 		<div class="col-md-6">
 			<h1 class="text-uppercase text-center">Story</h1>
@@ -80,24 +80,17 @@
 
 <!-- logo -->
 <div class="container-fluid" id="logo">
-	<div class="row text-center">
-		<div class="container">
-
-		</div>
-	</div>
+	<div class="row text-center"></div>
 </div>
 <!-- end logo -->
 
-<div class="container" id="portfolio">
+<!-- portfolio -->
+<div class="container-fluid" id="portfolio">
+  <div class="container">
 		<div class="row">
-			<div class="col-md-7 text-justify">
-
-			<!-- portfolio -->
-
+			<div class="col-md-6 text-justify">
 				<div class="row">
 					<h1 class="text-uppercase text-center">portfolio</h1>
-				</div>
-				<div class="row">
 					<div class="col-md-6">
 						<div class="thumbnail text-center">
 							<img src="img/petstore.png" alt="Pet Store">
@@ -118,7 +111,7 @@
 					</div>
 				</div>
 			</div>
-      <div class="col-md-5 text-justify">
+      <div class="col-md-6 text-justify">
         <h1 class="text-uppercase text-center">Skills</h1>
         <div class="padding">
           <p>As of now, I have learned HTML5 and CSS3. With the aide of Bootstrap, I can build reponsive websites. I would like to work with a web designer, so I can learn better design.</p>
@@ -128,32 +121,29 @@
       </div>
     </div>
   </div>
-
+</div>
 			<!-- end portfolio -->
 
       <!-- contact -->
 
   <div class="container-fluid" id="contact">
-    <div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h1 class="text-uppercase">Contact</h1>
-			</div>
-		</div>
 		<div class="row">
 			<div class="col-md-6">
+        <div class="row">
+          <h1 class="text-uppercase">Contact</h1>
+        </div>
 				<form>
 					<div class="form-group">
 				    <label for="exampleInputName">Name <span>*</span></label>
-				    <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+				    <input type="text" class="form-control" placeholder="Name">
 				  </div>
 					<div class="form-group">
 				    <label for="exampleInputEmail1">Email <span>*</span></label>
-				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+				    <input type="email" class="form-control" placeholder="Email">
 				  </div>
 				  <div class="form-group">
 				    <label for="exampleInputSubject">Subject <span>*</span></label>
-				    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Subject">
+				    <input type="text" class="form-control" placeholder="Subject">
 				  </div>
 				  <div class="form-group">
 				    <label for="exampleInputMessage">Message <span>*</span></label>
@@ -165,7 +155,7 @@
 				    </label>
 				  </div>
 				  <button type="submit" class="btn btn-default center-block">Send Message</button>
-					<p class="text-center" id="fine-print">All fields marked <span>*</span> are mandatory.</p>
+					<p class="text-center">All fields marked <span>*</span> are mandatory.</p>
 				</form>
 			</div>
 			<div class="col-md-6">
@@ -194,7 +184,6 @@
       </div>
     </div>
   </div>
-</div>
 
     <!-- end contact -->
 
